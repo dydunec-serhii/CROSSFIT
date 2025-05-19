@@ -1,0 +1,54 @@
+.playw> {
+    font-family: "Playwrite MX", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.heebo {
+    font-family: "Heebo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.yantramanav {
+    font-family: "Yantramanav", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+:root {
+    --color-dark: #000000;
+    --color-light: #FFFFFF;
+    --dark-gray: #404040;
+    --color-light-gray: #C4C4C4;
+    --border-radius: 30px;
+
+    --border: 1px solid var(--color-light);
+    --container-width: 1300px;
+
+    --container-pziding-x: 15px;
+    --transition-duration: 0.2s;
+
+}
+
+body {
+    background-color: #000000;
+}
+
+.constainer {
+    max-width: calc(var(--container-width) + var(--container-pziding-x) * 2);
+    margin-inline-end: auto;
+    padding-inline: var(--container-pziding-x);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700px;
+    text-transform: uppercase;
+}
