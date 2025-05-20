@@ -62,9 +62,11 @@ header {
     background-color: var(--color-darkE);
     height: 170px;
 }
-.align{
+
+.align {
     margin-top: -10px;
 }
+
 .logo-head {
     width: 130px;
     height: 35px;
@@ -124,5 +126,103 @@ header {
 @media (max-width:450px) {
     .ul-head {
         column-gap: 20px;
+    }
+}
+
+.strilka {
+
+    width: 190px;
+    height: 190px;
+    margin-top: 370px;
+}
+
+.p-secsion {
+    color: var(--color-light);
+    font-size: 25px;
+    margin-top: 510px;
+}
+
+.div-img-strulka {
+    display: flex;
+    column-gap: 30px;
+    margin-left: 120px;
+}
+.cross-main{
+    font-size: 270px;
+    color: var(--color-light);
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+@media (max-width:1300px) {
+    .cross-main{
+        font-size: 250px;
+    }
+}
+@media (max-width:1250px) {
+    .cross-main{
+        font-size: 220px;
+    }
+}
+@media (max-width:1150px) {
+    .cross-main{
+        font-size: 200px;
+    }
+}
+@media (max-width:1050px) {
+    .cross-main{
+        font-size: 180px;
+    }
+}
+@media (max-width:950px) {
+    .cross-main{
+        font-size: 150px;
+    }
+    .strilka{
+        width: 160px;
+        height: 160px;
+    }
+    .p-secsion{
+        position: relative;
+        bottom: 30px;
+    }
+}
+@media (max-width:800px) {
+    .cross-main{
+        font-size: 130px;
+    }
+} 
+.mar{
+    margin-top: -100px;
+}
+@media (max-width:680px) {
+    .cross-main{
+        font-size: 100px;
+    }
+    .strilka{
+        width: 130px;
+        height: 130px;
+        position: relative;
+        bottom: -30px;
+    }
+}
+@media (max-width:550px) {
+    .cross-main{
+        font-size: 80px;
+    }
+    .div-img-strulka{
+        position: relative;
+        left: -50px;
+    }
+    .strilka{
+        width: 100px;
+        height: 100px;
+        position: relative;
+        bottom: -60px;
+    }
+}
+@media (max-width:440px) {
+    .cross-main{
+        font-size: 70px;
     }
 }
