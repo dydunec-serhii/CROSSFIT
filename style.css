@@ -52,3 +52,69 @@ h6 {
     font-weight: 700px;
     text-transform: uppercase;
 }
+
+ul {
+    list-style: none;
+}
+
+header {
+    padding-inline: 30px;
+}
+
+.logo-head {
+    width: 130px;
+    height: 35px;
+    position: relative;
+    top: 70px;
+}
+
+.ul-head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-light);
+    gap: 62px;
+    margin-top: 35px;
+}
+
+.li-bag:hover {
+    color: var(--color-light-gray);
+}
+
+.butt-head {
+    background-color: var(--color-light);
+    border-radius: 25px;
+    border: none;
+    padding-inline: 26px;
+    height: 30px;
+    width: 120px;
+
+}
+
+.butt-header {
+    display: flex;
+    justify-content: end;
+    margin-top: -35px;
+}
+
+@media (max-width:870px) {
+    .ul-head {
+        position: relative;
+        top: 60px;
+    }
+}
+@media (max-width: 650px) {
+  header{
+    padding-inline:15px ;
+  }
+}
+@media (max-width:580px) {
+    .ul-head{
+        column-gap: 40px;
+    }
+}
+@media (max-width:450px) {
+    .ul-head{
+        column-gap: 20px;
+    }
+}
