@@ -345,20 +345,22 @@ header {
 
 .butt {
     background-color: var(--color-darkE);
-    
+
 }
 
 .ul-img-second-sec {
-    
+
     column-gap: 70px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 }
-.img-stl{
+
+.img-stl {
     margin-bottom: 100px;
 }
+
 /* .first-ul-strilka{
     margin-top: 150px;
     display: flex;
@@ -366,13 +368,31 @@ header {
    column-gap: 130px;
    flex-wrap: wrap;
 } */
-.div-img-second-sec{
+.div-img-second-sec {
     margin-top: 200px;
 }
-.span-strl{
+
+.span-strl {
     color: var(--color-light);
     display: flex;
     justify-content: center;
     margin-right: 50px;
     margin-top: 20px;
+}
+
+.img-big-section-div {
+    width: 100%;
+    min-height: 100%;
+}
+.ul-div-img-strilka{
+    display: flex;
+    justify-content: center;
+  column-gap: 50px;
+  margin-top: -50px;
+}
+.div-sec-join{
+    color: var(--color-light);
+    font-size: 150px;
+    margin-top: -35px;
+    
 }
